@@ -6,5 +6,21 @@ This project implements a **Ternary Search Tree (TST)**, a type of trie-based da
 
 
 ## Project Structure
+```
+/TernarySearchTree
+    ├── README.md                 
+    ├── ternary_search_tree.py      
+    │   ├── test_tst.py          
+    ├── benchmarks
+    │   ├── benchmark.py          
+    ├── job_script.sh              
+    ├── requirements.txt           
+```
+Below is the directory structure for the Ternary Search Tree project:
+- `README.md`: This file, which provides an overview of the project, installation instructions, and usage guidelines.
+- `ternary_search_tree.py`: The main implementation of the Ternary Search Tree, including `insert`, `search`, and `delete` methods.
+- `tests/test_tst.py`: Unit tests for the Ternary Search Tree to ensure its correctness.
+- `benchmarks/benchmark.py`: A script for benchmarking the performance of the Ternary Search Tree on large datasets.
+- `job_script.sh`: A shell script for running benchmarking on the HPC infrastructure.
+- `requirements.txt`: A file containing the list of Python dependencies required for the project.
 
-/TernarySearchTree ├── README.md # This file ├── ternary_search_tree.py # Main Ternary Search Tree implementation ├── tests │ ├── test_tst.py # Unit tests for Ternary Search Tree ├── benchmarks │ ├── benchmark.py # Benchmarking script for performance testing ├── job_script.sh # Job script for running on HPC infrastructure ├── requirements.txt # Python dependencies
